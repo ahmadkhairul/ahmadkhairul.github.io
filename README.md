@@ -1,1 +1,1 @@
-<a href="ahmadkhairul.github.io"> demo </a>
+<a href="https://ahmadkhairul.github.io/"> ahmad khairul anwar resume </a>
