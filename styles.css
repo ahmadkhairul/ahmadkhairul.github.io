@@ -3,6 +3,11 @@
   font-weight: 400;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 section {
   display: flex;
   align-items: center;
@@ -42,7 +47,7 @@ nav ul li {
 nav ul li a {
   color: #333;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .tagline {
@@ -81,6 +86,19 @@ nav ul li a {
   cursor: pointer;
   text-align: center;
   margin-top: 20px;
+
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.portfolio-item.fade-in-up:hover {
+  transform: perspective(500px) rotateX(10deg);
+}
+
+.portfolio-item.fade-in-up {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .portfolio-item p {
@@ -132,6 +150,15 @@ nav ul li a {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.portfolio-description.fade-in-up {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .portfolio-description-item .title {
@@ -178,6 +205,25 @@ section>img.medium {
 
 .coming-soon-container p {
   font-size: 24px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 15px;
+}
+
+.footer-container a {
+  margin: 5px;
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-container p {
+  margin-top: 10px;
 }
 
 @media (max-width: 600px) {
