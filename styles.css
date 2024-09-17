@@ -142,6 +142,10 @@ nav ul li a {
   line-height: 24px;
 }
 
+.portfolio-detail-item img {
+  width: 400px;
+}
+
 .portfolio-description {
   width: 1140px;
   display: grid;
@@ -226,6 +230,10 @@ section>img.medium {
   margin-top: 10px;
 }
 
+.image-small img {
+  width: 120px;
+}
+
 @media (max-width: 600px) {
   header {
     position: inherit;
@@ -260,7 +268,12 @@ section>img.medium {
   .portfolio-description-item img,
   .portfolio-description-item img.medium,
   section>img.medium,
-  section>img {
+  section>img,
+  .portfolio-detail-item img {
     width: 90%;
   }
+
+  .image-small img {
+    width: 120px;
+  }  
 }
