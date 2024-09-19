@@ -3,6 +3,14 @@
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+}
+
+b {
+  font-weight: 700 !important;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -246,6 +254,20 @@ section>img.medium {
   width: 120px;
 }
 
+.back-button {
+  cursor: pointer;
+  margin: 50px 0px -100px 0px;
+}
+
+.back-button a {
+  display: flex;
+  width: 1140px;
+  margin: 0px;
+  align-items: center;
+  gap: 10px;
+  font-size: 30px;
+}
+
 @media (max-width: 600px) {
   header {
     position: inherit;
@@ -287,5 +309,5 @@ section>img.medium {
 
   .image-small img {
     width: 120px;
-  }  
+  }
 }
