@@ -83,6 +83,10 @@ nav ul li a {
 }
 
 .portfolio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   text-align: center;
   margin-top: 20px;
@@ -108,7 +112,7 @@ nav ul li a {
 }
 
 .portfolio-item img {
-  width: 380px;
+  width: 100%;
 }
 
 .portfolio-item p:first-child {
@@ -117,6 +121,14 @@ nav ul li a {
 
 .portfolio-item p:last-child {
   color: #a5a1a1;
+}
+
+.portfolio-item-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 440px;
 }
 
 .portfolio-detail {
