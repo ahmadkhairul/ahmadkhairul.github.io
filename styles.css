@@ -268,6 +268,18 @@ section>img.medium {
   font-size: 30px;
 }
 
+.portfolio-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-img-container img {
+  border-radius: 20px;
+}
+
 @media (max-width: 600px) {
   header {
     position: inherit;
