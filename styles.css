@@ -1,5 +1,5 @@
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
@@ -12,7 +12,7 @@ b {
 }
 
 body {
-  margin: 0;
+  margin: 12px;
   padding: 0;
 }
 
@@ -21,53 +21,71 @@ section {
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin: 50px 0px;
 }
+
+/* header */
 
 header {
   padding: 10px 0;
   text-align: center;
   position: -webkit-sticky;
-  /* For Safari */
   position: sticky;
   top: 0;
   background-color: #fff;
   z-index: 1000;
-  /* Ensure it stays on top */
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+nav {
+  padding: 1rem 2rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
   margin: 0 15px;
 }
 
-.url-active {
+nav ul li a {
+  color: skyblue;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: skyblue;
+  color: #ffffff;
+}
+
+h3 {
+  color: #a5a1a1;
   font-weight: 600;
 }
-
-nav ul li a {
-  color: #333;
-  text-decoration: none;
-  font-size: 20px;
-}
-
+/* very top */
 .tagline {
-  margin-top: 40px;
   color: #333;
-  width: 1140px;
+  width: 1000px;
 }
 
 .tagline .title {
-  font-weight: 700;
-  margin: 0;
-  font-size: 18px;
+  margin: 24px 0px 0px -5px;
+  font-size: 64px;
 }
 
 .tagline .sub-title {
@@ -75,19 +93,11 @@ nav ul li a {
   font-size: 16px;
 }
 
-.tagline .description {
-  margin: 24px 0px 0px -5px;
-  font-size: 64px;
-}
-
 .portfolio {
-  width: 1140px;
+  width: 1000px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .portfolio-item {
@@ -117,13 +127,12 @@ nav ul li a {
 .portfolio-item li {
   width: 400px;
   margin: 10px 0;
-  font-size: 20px;
+  font-size: 16px;
   text-align: left;
 }
 
-
 .portfolio-item img {
-  width: 100%;
+  object-fit: contain;
 }
 
 .portfolio-item p:first-child {
@@ -136,15 +145,16 @@ nav ul li a {
 
 .portfolio-item-img-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 400px;
-  height: 440px;
+
+  margin-bottom: 20px;
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
 .portfolio-detail {
-  width: 1140px;
+  width: 1000px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -164,6 +174,7 @@ nav ul li a {
   font-size: 16px;
   color: #a5a1a1;
   line-height: 24px;
+  text-align: justify;
 }
 
 .portfolio-detail-item img {
@@ -171,7 +182,7 @@ nav ul li a {
 }
 
 .portfolio-description {
-  width: 1140px;
+  width: 1000px;
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 20px;
@@ -210,11 +221,19 @@ nav ul li a {
   width: 420px;
 }
 
-section>img {
-  width: 1140px;
+.portfolio-description-item p {
+  text-align: justify;
 }
 
-section>img.medium {
+.portfolio-description-item p.title {
+  text-align: left;
+}
+
+section > img {
+  width: 1000px;
+}
+
+section > img.medium {
   width: 420px;
 }
 
@@ -265,7 +284,7 @@ section>img.medium {
 
 .back-button a {
   display: flex;
-  width: 1140px;
+  width: 1000px;
   margin: 0px;
   align-items: center;
   gap: 10px;
@@ -286,6 +305,8 @@ section>img.medium {
 
 .portfolio-img-container img {
   border-radius: 20px;
+  width: 400px;
+  height: auto;
 }
 
 figcaption {
@@ -299,11 +320,7 @@ strong {
   font-weight: bold;
 }
 
-@media (max-width: 600px) {
-  header {
-    position: inherit;
-  }
-
+@media (max-width: 1024px) {
   nav ul {
     flex-direction: column;
     align-items: center;
@@ -313,15 +330,15 @@ strong {
     margin: 10px 0;
   }
 
-  .tagline p {
-    text-align: center;
-  }
-
-  .tagline p:last-child {
+  .tagline .title {
     margin: 24px 0px 0px 0px;
-    font-size: 36px;
+    font-size: 20px;
   }
 
+  .tagline .sub-title {
+    margin: 5px 0px 0px 0px;
+    font-size: 16px;
+  }
   .portfolio,
   .portfolio-detail,
   .portfolio-description {
@@ -332,10 +349,10 @@ strong {
   .portfolio-item img,
   .portfolio-description-item img,
   .portfolio-description-item img.medium,
-  section>img.medium,
-  section>img,
+  section > img.medium,
+  section > img,
   .portfolio-detail-item img {
-    width: 90%;
+    width: 330px;
   }
 
   .image-small img {
