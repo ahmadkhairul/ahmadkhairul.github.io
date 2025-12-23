@@ -1,0 +1,74 @@
+{
+  "frontend": {
+    "title": "Advanced Front-End Engineering",
+    "items": [
+      "React.js (Hooks, Functional & Legacy Class Components)",
+      "Next.js (App Router & Pages Router)",
+      "TypeScript & Modern JavaScript (ES6+)",
+      "Complex UI workflows & state management",
+      "Performance optimization & lazy loading"
+    ]
+  },
+  "architecture": {
+    "title": "Architecture & Code Quality",
+    "items": [
+      "Clean architecture & scalable front-end structure",
+      "Micro-frontend & Module Federation",
+      "Legacy system refactoring (CodeIgniter, mixed stacks)",
+      "Readable, maintainable, and testable codebases"
+    ]
+  },
+  "stateManagement": {
+    "title": "State Management & Data Layer",
+    "items": [
+      "Redux Toolkit",
+      "React Query",
+      "Custom hooks & local state strategies",
+      "API-driven UI design"
+    ]
+  },
+  "testing": {
+    "title": "Testing & CI/CD",
+    "items": [
+      "Jest & React Testing Library",
+      "80–90% unit test coverage on production systems",
+      "SonarQube quality gates",
+      "CI/CD pipelines with Jenkins"
+    ]
+  },
+  "automation": {
+    "title": "Automation & Tooling",
+    "items": [
+      "AI-assisted development workflows",
+      "Video automation using Python & FFmpeg",
+      "Workflow optimization & scripting",
+      "Developer tooling & internal frameworks"
+    ]
+  },
+  "backend": {
+    "title": "Backend Exposure",
+    "items": [
+      "Node.js & Express",
+      "NestJS fundamentals",
+      "Laravel & PHP",
+      "REST API integration & JWT authentication"
+    ]
+  },
+  "mobile": {
+    "title": "Mobile Development",
+    "items": [
+      "React Native",
+      "Responsive-first mindset",
+      "Shared logic between web & mobile"
+    ]
+  },
+  "leadership": {
+    "title": "Technical Leadership",
+    "items": [
+      "Leading front-end teams",
+      "Code reviews & mentoring",
+      "Onboarding documentation & standards",
+      "Cross-team collaboration with product & backend"
+    ]
+  }
+}

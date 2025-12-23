@@ -1,0 +1,171 @@
+[
+  {
+    "name": "KlipXpert",
+    "year": "2025",
+    "role": "Founder & Full Stack Automation Engineer",
+    "description": "A fully automated short-form video generation pipeline designed to accelerate content production using modern automation and AI-assisted development.",
+    "techStack": [
+      "Python",
+      "FFmpeg",
+      "Supabase",
+      "AI tools (ChatGPT, Claude, Copilot, Lovable)"
+    ],
+    "highlights": [
+      "Reduced video generation time from 1–2 days to under 30 minutes",
+      "Built full automation pipeline from scratch",
+      "Shipped production-ready website in 4 days using AI pair programming",
+      "Continuously optimized for speed and creative flexibility"
+    ],
+    "link": "https://klipxpert.netlify.app"
+  },
+  {
+    "name": "Pijar Sekolah Platform",
+    "year": "2020 – 2025",
+    "role": "Lead Front-End Engineer",
+    "description": "A large-scale EdTech ecosystem supporting online exams, learning modules, analytics dashboards, and subscription management.",
+    "techStack": ["React", "Next.js", "Redux", "Jest", "React Testing Library"],
+    "highlights": [
+      "Used by 1.1M+ users",
+      "Delivered CBT platform with anti-cheating mechanisms",
+      "Built analytics dashboards for schools and government",
+      "Maintained high performance and accessibility standards"
+    ],
+    "link": "http://pijarsekolah.id"
+  },
+  {
+    "name": "Face Recognition Attendance App",
+    "year": "2017",
+    "role": "Front-End Developer",
+    "description": "A face recognition attendance system replacing card-based attendance and reducing HR manual work.",
+    "techStack": [
+      "JavaScript",
+      "Kairos API",
+      "Photobooth.js",
+      "IoT Integration"
+    ],
+    "highlights": [
+      "Eliminated 8+ hours of manual HR processing",
+      "Achieved ~90% face match accuracy",
+      "Delivered real-time attendance and payroll system"
+    ],
+    "link": "https://github.com/ahmadkhairul/face_em"
+  },
+    {
+    "name": "Quiz Play IO",
+    "year": "2025",
+    "role": "Front-End Mobile Developer",
+    "description": "A mobile quiz application featuring various quiz categories.",
+    "techStack": ["React Native", "Expo"],
+    "highlights": [
+      "Developed cross-platform mobile quiz app",
+      "Implemented smooth navigation and engaging UI",
+      "Integrated multiple quiz categories for diverse user interests"
+    ],
+    "link": "https://github.com/ahmadkhairul/quiz-play-io"
+  },
+  {
+    "name": "Figoera & Annora",
+    "year": "2024",
+    "role": "Lead Front-End Engineer",
+    "description": "Web applications for photobooth sessions with integrated Midtrans payment gateway, dynamic slideshows, and admin dashboards.",
+    "techStack": ["Laravel", "JavaScript", "CSS", "MySQL"],
+    "highlights": [
+      "Integrated Midtrans payment gateway for automated transactions",
+      "Built dynamic real-time photo slideshow with custom frames",
+      "Developed admin dashboard for session and revenue management"
+    ],
+    "link": ""
+  },
+  {
+    "name": "Delightfull Crumbs",
+    "year": "2024",
+    "role": "Fullstack Front-End Designer",
+    "description": "A cookie ordering application and complementary website featuring recipes, articles, and a streamlined checkout process.",
+    "techStack": ["UI/UX Design", "Figma", "Empathy Maps", "Wireframing"],
+    "highlights": [
+      "Designed end-to-end user flow from product selection to checkout",
+      "Created companion web platform extending the mobile app utility",
+      "Iterated designs based on usability study feedback"
+    ],
+    "link": "https://www.figma.com/proto/sQvoZQkqSTkNbeHQixyhKh/Delightfull-Crumbs"
+  },
+  {
+    "name": "Baking Timer",
+    "year": "2024",
+    "role": "UI/UX Designer & Researcher",
+    "description": "An application designed to assist bakers with precise timers and temperature settings, featuring recipe integration and baking history.",
+    "techStack": ["UI/UX Design", "Figma", "User Research", "Prototyping"],
+    "highlights": [
+      "Conducted user research to identify pain points for home bakers",
+      "Designed high-fidelity prototypes for precise timing and temperature control",
+      "Created comprehensive user personas and journey maps"
+    ],
+    "link": "https://www.figma.com/proto/sQvoZQkqSTkNbeHQixyhKh/Delightfull-Crumbs?node-id=243-3250"
+  },
+  {
+    "name": "Landtick",
+    "year": "2020",
+    "role": "Fullstack Developer",
+    "description": "A train ticket booking application capable of handling reservations and scheduling.",
+    "techStack": [
+      "JavaScript",
+      "React",
+      "Redux",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "highlights": [
+      "Built full-stack train ticket booking system in 2 weeks",
+      "Converted Figma designs into functional React components",
+      "Implemented secure ticket reservation and scheduling logic"
+    ],
+    "link": "https://github.com/ahmadkhairul/dw14yqtsv_lantik"
+  },
+  {
+    "name": "BreedNder",
+    "year": "2020",
+    "role": "Fullstack Developer",
+    "description": "A social media platform for pet breeders to find partners for their pets, styled like a dating app.",
+    "techStack": [
+      "JavaScript",
+      "React",
+      "Redux",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "highlights": [
+      "Developed 'Tinder for Pets' matchmaking platform",
+      "Implemented full-stack architecture with MERN",
+      "Built responsive frontend from custom UI designs"
+    ],
+    "link": "https://github.com/ahmadkhairul/BreedNder"
+  },
+  {
+    "name": "Database Produk Karet 2016",
+    "year": "2016",
+    "role": "Software Engineer",
+    "description": "A comprehensive database system for the Indonesian rubber industry, tracking supply chains from upstream to downstream.",
+    "techStack": ["PHP 5.4", "MySQL", "HTML", "CSS", "JavaScript"],
+    "highlights": [
+      "Digitized tracking for national rubber supply chain",
+      "Designed database schema for upstream-to-downstream stakeholders",
+      "Built comprehensive web interface for data visualization"
+    ],
+    "link": "https://github.com/ahmadkhairul/database_karet_2016"
+  },
+  {
+    "name": "Sistem Akademik (SIAKAD)",
+    "year": "2013",
+    "role": "Software Engineer",
+    "description": "An academic information system for STT Jabar allowing students to manage study plans, check grades, and view library availability.",
+    "techStack": ["PHP 5.4", "MySQL", "HTML", "CSS", "JavaScript"],
+    "highlights": [
+      "Automated academic processes including KRS and KKS",
+      "Integrated library book availability check",
+      "Streamlined student payment verification"
+    ],
+    "link": "https://github.com/ahmadkhairul/siakadsttjabar"
+  }
+]
