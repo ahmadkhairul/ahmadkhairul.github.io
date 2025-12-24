@@ -2,7 +2,7 @@
   {
     "name": "KlipXpert",
     "year": "2025",
-    "role": "Founder & Full Stack Automation Engineer",
+    "role": "Founder, Front-End & Automation Engineer",
     "description": "A fully automated short-form video generation pipeline designed to accelerate content production using modern automation and AI-assisted development.",
     "techStack": [
       "Python",
@@ -35,7 +35,7 @@
   {
     "name": "Face Recognition Attendance App",
     "year": "2017",
-    "role": "Front-End Developer",
+    "role": "Front-End Engineer",
     "description": "A face recognition attendance system replacing card-based attendance and reducing HR manual work.",
     "techStack": [
       "JavaScript",
@@ -53,7 +53,7 @@
     {
     "name": "Quiz Play IO",
     "year": "2025",
-    "role": "Front-End Mobile Developer",
+    "role": "Mobile Front-End Engineer",
     "description": "A mobile quiz application featuring various quiz categories.",
     "techStack": ["React Native", "Expo"],
     "highlights": [
@@ -79,7 +79,7 @@
   {
     "name": "Delightfull Crumbs",
     "year": "2024",
-    "role": "Fullstack Front-End Designer",
+    "role": "Design & Front-End Engineer",
     "description": "A cookie ordering application and complementary website featuring recipes, articles, and a streamlined checkout process.",
     "techStack": ["UI/UX Design", "Figma", "Empathy Maps", "Wireframing"],
     "highlights": [
