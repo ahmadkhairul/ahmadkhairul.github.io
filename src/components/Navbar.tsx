@@ -18,10 +18,10 @@ const Navbar = () => {
   const navLinks = [
     { href: "#home", label: t.nav.home },
     { href: "#about", label: t.nav.about },
-    { href: "#skills", label: t.nav.skills },
     { href: "#experience", label: t.nav.experience },
     { href: "#projects", label: t.nav.projects },
     { href: "#articles", label: t.nav.articles },
+    { href: "#skills", label: t.nav.skills },
     { href: "#contact", label: t.nav.contact },
   ];
 
@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#home" className="text-xl font-bold text-gradient">
-            AKA
+           <img src="/logo.png" alt="Logo" width={32} height={32} />
           </a>
 
           {/* Desktop Navigation */}

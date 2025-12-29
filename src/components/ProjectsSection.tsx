@@ -70,7 +70,7 @@ const ProjectsSection = () => {
                   <ul className="text-sm text-muted-foreground space-y-1">
                     {project.highlights.map((highlight, i) => (
                       <li key={i} className="flex items-start gap-2">
-                        <span className="text-primary">•</span>
+                        <span className="text-primary -mt-0.5">•</span>
                         <span>{highlight}</span>
                       </li>
                     ))}

@@ -63,7 +63,7 @@ const SkillsSection = () => {
                   <ul className="text-muted-foreground text-sm leading-relaxed space-y-1">
                     {skill.items.slice(0, 3).map((item, i) => (
                       <li key={i} className="flex items-start gap-2">
-                        <span className="text-primary mt-1">•</span>
+                        <span className="text-primary -mt-0.5">•</span>
                         <span>{item}</span>
                       </li>
                     ))}

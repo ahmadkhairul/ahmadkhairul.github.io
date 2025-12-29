@@ -1,74 +1,62 @@
 {
   "frontend": {
-    "title": "Advanced Front-End Engineering",
+    "title": "Front-End Engineering",
     "items": [
-      "React.js (Hooks, Functional & Legacy Class Components)",
-      "Next.js (App Router & Pages Router)",
       "TypeScript & Modern JavaScript (ES6+)",
-      "Complex UI workflows & state management",
-      "Performance optimization & lazy loading"
+      "Modern Front-End Tech (Next.js, React.js & Vue.js)"
+    ]
+  },
+  "leadership": {
+    "title": "Technical Leadership",
+    "items": [
+      "Lead, Code reviews & mentoring front-end teams",
+      "Onboarding documentation & standards",
+      "Cross-team collaboration with product & backend"
     ]
   },
   "architecture": {
     "title": "Architecture & Code Quality",
     "items": [
-      "Clean architecture & scalable front-end structure",
-      "Micro-frontend & Module Federation",
-      "Legacy system refactoring (CodeIgniter, mixed stacks)",
+      "Clean and scalable front-end architecture & Module Federation",
+      "Legacy system refactoring (Old CI, Old Laravel, PHP 5.4, etc)",
       "Readable, maintainable, and testable codebases"
     ]
   },
   "stateManagement": {
     "title": "State Management & Data Layer",
     "items": [
-      "Redux Toolkit",
-      "React Query",
-      "Custom hooks & local state strategies",
-      "API-driven UI design"
+      "Local Storage, Local state, Global state Management Strategy",
+      "React Query, Redux, Context API, Pinia, Zod"
     ]
   },
   "testing": {
     "title": "Testing & CI/CD",
     "items": [
-      "Jest & React Testing Library",
       "80–90% unit test coverage on production systems",
-      "SonarQube quality gates",
-      "CI/CD pipelines with Jenkins"
+      "Testing Tech (Jest, React Testing Library, Vitest)",
+      "SonarQube quality gates"
     ]
   },
   "automation": {
-    "title": "Automation & Tooling",
+    "title": "Tooling",
     "items": [
-      "AI-assisted development workflows",
-      "Video automation using Python & FFmpeg",
-      "Workflow optimization & scripting",
-      "Developer tooling & internal frameworks"
-    ]
-  },
-  "backend": {
-    "title": "Backend Exposure",
-    "items": [
-      "Node.js & Express",
-      "NestJS fundamentals",
-      "Laravel & PHP",
-      "REST API integration & JWT authentication"
+      "Module Bundler (Webpack & Vite)",
+      "AI-assisted development workflows"
     ]
   },
   "mobile": {
     "title": "Mobile Development",
     "items": [
-      "React Native",
-      "Responsive-first mindset",
-      "Shared logic between web & mobile"
+      "Responsive Design Mobile First",
+      "React Native & Expo"
     ]
   },
-  "leadership": {
-    "title": "Technical Leadership",
+  "backend": {
+    "title": "Backend Exposure",
     "items": [
-      "Leading front-end teams",
-      "Code reviews & mentoring",
-      "Onboarding documentation & standards",
-      "Cross-team collaboration with product & backend"
+      "REST API integration & JWT authentication",
+      "Node.js, Express and NestJS",
+      "Codeigniter, Laravel & PHP"
     ]
   }
 }
