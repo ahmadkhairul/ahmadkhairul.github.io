@@ -3,7 +3,7 @@ import { Calendar } from "lucide-react";
 import experienceData from "@/data/experience.json";
 
 const ExperienceSection = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   return (
     <section id="experience" className="py-20 bg-muted/30">
@@ -24,7 +24,7 @@ const ExperienceSection = () => {
             {/* Timeline line */}
             <div className="absolute left-0 md:left-1/2 transform md:-translate-x-px h-full w-0.5 bg-border" />
 
-            {experienceData.map((exp, index) => (
+            {experienceData[language].map((exp, index) => (
               <div
                 key={index}
                 className={`relative flex flex-col md:flex-row gap-8 mb-12 ${

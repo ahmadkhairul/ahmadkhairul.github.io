@@ -13,7 +13,7 @@ const Footer = () => {
             © {currentYear} Ahmad Khairul Anwar. {t.footer.rights}
           </p>
           <p className="text-muted-foreground text-sm flex items-center gap-1">
-            {t.footer.madeWith} <Heart className="h-4 w-4 text-accent fill-accent" /> in Indonesia
+            {t.footer.madeWith} <Heart className="h-4 w-4 text-accent fill-accent" /> {t.footer.location}
           </p>
         </div>
       </div>

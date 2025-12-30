@@ -1,67 +1,136 @@
-[
-  {
-    "title": "Jurnal Front End Dev Mencari Kerja Setelah Layyoff",
-    "url": "https://95ahmadkhairul.medium.com/jurnal-front-end-dev-mencari-kerja-setelah-layyoff-a0ef7e16174d",
-    "summary": "Catatan reflektif perjalanan seorang front-end developer setelah terkena layoff, mulai dari tekanan mental, proses evaluasi diri, hingga strategi realistis dalam menghadapi pasar kerja teknologi yang semakin kompetitif.",
-    "date": "2025-09-01",
-    "tags": [
-      "Career",
-      "Layoff",
-      "Front-End Developer",
-      "Job Hunting",
-      "Tech Industry"
-    ]
-  },
-  {
-    "title": "𝗥𝗮𝗵𝗮𝘀𝗶𝗮 𝗚𝗺𝗮𝗶𝗹 𝗖𝗲𝗸 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 𝗦𝗲𝗰𝗲𝗽𝗮𝘁 𝗞𝗶𝗹𝗮𝘁",
-    "url": "https://www.linkedin.com/posts/ahmad-khairul-anwar_username-activity-7362000093228527617-Vr4D",
-    "summary": "Tips praktis untuk mengecek ketersediaan username Gmail dengan cepat dan efisien, lengkap dengan insight teknis yang relevan bagi developer maupun pengguna yang ingin menghindari trial-and-error berulang.",
-    "date": "2025-07-20",
-    "tags": [
-      "Productivity",
-      "Developer Tips",
-      "Gmail",
-      "Automation",
-      "Tech Tips"
-    ]
-  },
-  {
-    "title": "𝗠𝘂𝗹𝗮𝗶 𝗣𝗲𝗿𝗷𝗮𝗹𝗮𝗻𝗮𝗻 𝗝𝗮𝗱𝗶 𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿",
-    "url": "https://www.linkedin.com/posts/ahmad-khairul-anwar_stepbystepfe-activity-7363135302481186817-UEkV",
-    "summary": "Cerita awal perjalanan menjadi front-end developer, membahas langkah-langkah realistis, mindset belajar, serta ekspektasi yang perlu dipahami sejak awal sebelum terjun ke dunia profesional.",
-    "date": "2025-07-23",
-    "tags": [
-      "Frontend",
-      "Career Path",
-      "Learning Journey",
-      "Web Development",
-      "Junior Developer"
-    ]
-  },
-  {
-    "title": "Refactoring Study Case in React Js",
-    "url": "https://www.linkedin.com/posts/ahmad-khairul-anwar_reafactor-code-sample-activity-7376935850997243904-qpT5",
-    "summary": "Studi kasus refactoring pada aplikasi React yang membahas cara meningkatkan keterbacaan kode, mengurangi kompleksitas, dan menjaga stabilitas sistem tanpa mengganggu fitur yang sudah berjalan di production.",
-    "date": "2025-08-28",
-    "tags": [
-      "React",
-      "Refactoring",
-      "Clean Code",
-      "Frontend Architecture",
-      "Software Engineering"
-    ]
-  },
-  {
-    "title": "Code in 2025 Trial Version Klipxpert",
-    "url": "https://www.linkedin.com/posts/ahmad-khairul-anwar_videoprocessing-softwareengineering-klipxpert-activity-7396169727531913216-0dbU",
-    "summary": "Eksperimen dan pembelajaran dalam membangun KlipXpert versi awal, menyoroti pendekatan engineering, automasi video, serta bagaimana AI-assisted development mempercepat proses delivery tanpa mengorbankan kualitas.",
-    "date": "2025-10-15",
-    "tags": [
-      "Automation",
-      "AI-Assisted Development",
-      "Video Processing",
-      "Software Engineering",
-      "Side Project"
-    ]
-  }
-]
+{
+  "en": [
+    {
+      "title": "Front End Dev Journal: Job Hunting After Layoff",
+      "url": "https://95ahmadkhairul.medium.com/jurnal-front-end-dev-mencari-kerja-setelah-layyoff-a0ef7e16174d",
+      "summary": "Reflective notes on a front-end developer's journey after layoff, from mental pressure, self-evaluation, to realistic strategies in facing the competitive tech job market.",
+      "date": "2025-09-01",
+      "tags": [
+        "Career",
+        "Layoff",
+        "Front-End Developer",
+        "Job Hunting",
+        "Tech Industry"
+      ]
+    },
+    {
+      "title": "Gmail Secret: Check Username Instantly",
+      "url": "https://www.linkedin.com/posts/ahmad-khairul-anwar_username-activity-7362000093228527617-Vr4D",
+      "summary": "Practical tips to check Gmail username availability quickly and efficiently, complete with technical insights relevant for developers and users wanting to avoid repetitive trial-and-error.",
+      "date": "2025-07-20",
+      "tags": [
+        "Productivity",
+        "Developer Tips",
+        "Gmail",
+        "Automation",
+        "Tech Tips"
+      ]
+    },
+    {
+      "title": "Starting the Journey as a Frontend Developer",
+      "url": "https://www.linkedin.com/posts/ahmad-khairul-anwar_stepbystepfe-activity-7363135302481186817-UEkV",
+      "summary": "The beginning story of becoming a front-end developer, discussing realistic steps, learning mindset, and expectations to understand before diving into the professional world.",
+      "date": "2025-07-23",
+      "tags": [
+        "Frontend",
+        "Career Path",
+        "Learning Journey",
+        "Web Development",
+        "Junior Developer"
+      ]
+    },
+    {
+      "title": "Refactoring Study Case in React Js",
+      "url": "https://www.linkedin.com/posts/ahmad-khairul-anwar_reafactor-code-sample-activity-7376935850997243904-qpT5",
+      "summary": "Refactoring case study on a React application discussing how to improve code readability, reduce complexity, and maintain system stability without disrupting production features.",
+      "date": "2025-08-28",
+      "tags": [
+        "React",
+        "Refactoring",
+        "Clean Code",
+        "Frontend Architecture",
+        "Software Engineering"
+      ]
+    },
+    {
+      "title": "Code in 2025: Klipxpert Trial Version",
+      "url": "https://www.linkedin.com/posts/ahmad-khairul-anwar_videoprocessing-softwareengineering-klipxpert-activity-7396169727531913216-0dbU",
+      "summary": "Experiments and learnings in building the early version of KlipXpert, highlighting engineering approaches, video automation, and how AI-assisted development accelerates the delivery process without sacrificing quality.",
+      "date": "2025-10-15",
+      "tags": [
+        "Automation",
+        "AI-Assisted Development",
+        "Video Processing",
+        "Software Engineering",
+        "Side Project"
+      ]
+    }
+  ],
+  "id": [
+    {
+      "title": "Jurnal Front End Dev Mencari Kerja Setelah Layyoff",
+      "url": "https://95ahmadkhairul.medium.com/jurnal-front-end-dev-mencari-kerja-setelah-layyoff-a0ef7e16174d",
+      "summary": "Catatan reflektif perjalanan seorang front-end developer setelah terkena layoff, mulai dari tekanan mental, proses evaluasi diri, hingga strategi realistis dalam menghadapi pasar kerja teknologi yang semakin kompetitif.",
+      "date": "2025-09-01",
+      "tags": [
+        "Career",
+        "Layoff",
+        "Front-End Developer",
+        "Job Hunting",
+        "Tech Industry"
+      ]
+    },
+    {
+      "title": "𝗥𝗮𝗵𝗮𝘀𝗶𝗮 𝗚𝗺𝗮𝗶𝗹 𝗖𝗲𝗸 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 𝗦𝗲𝗰𝗲𝗽𝗮𝘁 𝗞𝗶𝗹𝗮𝘁",
+      "url": "https://www.linkedin.com/posts/ahmad-khairul-anwar_username-activity-7362000093228527617-Vr4D",
+      "summary": "Tips praktis untuk mengecek ketersediaan username Gmail dengan cepat dan efisien, lengkap dengan insight teknis yang relevan bagi developer maupun pengguna yang ingin menghindari trial-and-error berulang.",
+      "date": "2025-07-20",
+      "tags": [
+        "Productivity",
+        "Developer Tips",
+        "Gmail",
+        "Automation",
+        "Tech Tips"
+      ]
+    },
+    {
+      "title": "𝗠𝘂𝗹𝗮𝗶 𝗣𝗲𝗿𝗷𝗮𝗹𝗮𝗻𝗮𝗻 𝗝𝗮𝗱𝗶 𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿",
+      "url": "https://www.linkedin.com/posts/ahmad-khairul-anwar_stepbystepfe-activity-7363135302481186817-UEkV",
+      "summary": "Cerita awal perjalanan menjadi front-end developer, membahas langkah-langkah realistis, mindset belajar, serta ekspektasi yang perlu dipahami sejak awal sebelum terjun ke dunia profesional.",
+      "date": "2025-07-23",
+      "tags": [
+        "Frontend",
+        "Career Path",
+        "Learning Journey",
+        "Web Development",
+        "Junior Developer"
+      ]
+    },
+    {
+      "title": "Refactoring Study Case in React Js",
+      "url": "https://www.linkedin.com/posts/ahmad-khairul-anwar_reafactor-code-sample-activity-7376935850997243904-qpT5",
+      "summary": "Studi kasus refactoring pada aplikasi React yang membahas cara meningkatkan keterbacaan kode, mengurangi kompleksitas, dan menjaga stabilitas sistem tanpa mengganggu fitur yang sudah berjalan di production.",
+      "date": "2025-08-28",
+      "tags": [
+        "React",
+        "Refactoring",
+        "Clean Code",
+        "Frontend Architecture",
+        "Software Engineering"
+      ]
+    },
+    {
+      "title": "Code in 2025 Trial Version Klipxpert",
+      "url": "https://www.linkedin.com/posts/ahmad-khairul-anwar_videoprocessing-softwareengineering-klipxpert-activity-7396169727531913216-0dbU",
+      "summary": "Eksperimen dan pembelajaran dalam membangun KlipXpert versi awal, menyoroti pendekatan engineering, automasi video, serta bagaimana AI-assisted development mempercepat proses delivery tanpa mengorbankan kualitas.",
+      "date": "2025-10-15",
+      "tags": [
+        "Automation",
+        "AI-Assisted Development",
+        "Video Processing",
+        "Software Engineering",
+        "Side Project"
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import articleData from "@/data/article.json";
 
 const ArticlesSection = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString("en-US", {
@@ -28,7 +28,7 @@ const ArticlesSection = () => {
 
           {/* Articles List */}
           <div className="space-y-6">
-            {articleData.map((article, index) => (
+            {articleData[language].map((article, index) => (
               <a
                 key={index}
                 href={article.url}

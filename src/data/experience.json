@@ -1,70 +1,142 @@
-[
-  {
-    "company": "Pegadaian Indonesia",
-    "role": "Front-End / Support Engineer",
-    "period": "2025 – Present",
-    "type": "Enterprise / Financial Systems",
-    "responsibilities": [
-      "Provide front-end support across multiple internal products and stacks",
-      "Work with legacy systems (CodeIgniter 2 & 3) and modern stacks (React, Vue 3, NestJS)",
-      "Act as cross-team quality and architecture support engineer",
-      "Rapidly onboard into complex financial domains (period closing, COA)"
-    ],
-    "achievements": [
-      "Eliminated N+1 query issue by refactoring into a recursive, depth-controlled query",
-      "Improved performance by reducing multiple DB calls into a single execution",
-      "Raised unit test coverage to ~90% and established testing standards",
-      "Fixed authorization vulnerabilities in legacy systems"
-    ]
-  },
-  {
-    "company": "Telkom Indonesia",
-    "role": "Lead Front-End Engineer",
-    "period": "2020 – 2025",
-    "type": "EdTech / Large-Scale Platform",
-    "responsibilities": [
-      "Led 4 front-end teams across multiple EdTech products",
-      "Defined scalable front-end architecture and engineering standards",
-      "Integrated 100+ REST APIs",
-      "Ensured high-quality releases through testing and code reviews"
-    ],
-    "achievements": [
-      "Delivered platforms used by 1.1M+ users",
-      "Built reusable component system across 10+ projects",
-      "Reduced development time by ~40%",
-      "Maintained >80% test coverage across projects"
-    ]
-  },
-  {
-    "company": "Karya Mitra Utama",
-    "role": "Web Programmer",
-    "period": "2016 – 2019",
-    "type": "Automation & IoT",
-    "responsibilities": [
-      "Built custom web applications to automate business workflows",
-      "Integrated IoT systems for real-time monitoring",
-      "Developed internal dashboards and tools"
-    ],
-    "achievements": [
-      "Reduced manual workload by 90%",
-      "Delivered 3+ IoT-enabled systems",
-      "Cut processing time by 50%"
-    ]
-  },
-  {
-    "company": "Sekolah Tinggi Teknologi Jawa Barat",
-    "role": "Web Programmer",
-    "period": "2013 – 2016",
-    "type": "Education & Academic Systems",
-    "responsibilities": [
-      "Built academic and administrative systems",
-      "Digitized payments, records, and library workflows",
-      "Developed IoT-enabled systems for campus use"
-    ],
-    "achievements": [
-      "Eliminated 50% of manual workflows",
-      "Supported 200+ students and staff",
-      "Improved data accuracy and transparency"
-    ]
-  }
-]
+{
+  "en": [
+    {
+      "company": "Pegadaian Indonesia",
+      "role": "Front-End / Support Engineer",
+      "period": "2025 – Present",
+      "type": "Enterprise / Financial Systems",
+      "responsibilities": [
+        "Provide front-end support across multiple internal products and stacks",
+        "Work with legacy systems (CodeIgniter 2 & 3) and modern stacks (React, Vue 3, NestJS)",
+        "Act as cross-team quality and architecture support engineer",
+        "Rapidly onboard into complex financial domains (period closing, COA)"
+      ],
+      "achievements": [
+        "Eliminated N+1 query issue by refactoring into a recursive, depth-controlled query",
+        "Improved performance by reducing multiple DB calls into a single execution",
+        "Raised unit test coverage to ~90% and established testing standards",
+        "Fixed authorization vulnerabilities in legacy systems"
+      ]
+    },
+    {
+      "company": "Telkom Indonesia",
+      "role": "Lead Front-End Engineer",
+      "period": "2020 – 2025",
+      "type": "EdTech / Large-Scale Platform",
+      "responsibilities": [
+        "Led 4 front-end teams across multiple EdTech products",
+        "Defined scalable front-end architecture and engineering standards",
+        "Integrated 100+ REST APIs",
+        "Ensured high-quality releases through testing and code reviews"
+      ],
+      "achievements": [
+        "Delivered platforms used by 1.1M+ users",
+        "Built reusable component system across 10+ projects",
+        "Reduced development time by ~40%",
+        "Maintained >80% test coverage across projects"
+      ]
+    },
+    {
+      "company": "Karya Mitra Utama",
+      "role": "Web Programmer",
+      "period": "2016 – 2019",
+      "type": "Automation & IoT",
+      "responsibilities": [
+        "Built custom web applications to automate business workflows",
+        "Integrated IoT systems for real-time monitoring",
+        "Developed internal dashboards and tools"
+      ],
+      "achievements": [
+        "Reduced manual workload by 90%",
+        "Delivered 3+ IoT-enabled systems",
+        "Cut processing time by 50%"
+      ]
+    },
+    {
+      "company": "Sekolah Tinggi Teknologi Jawa Barat",
+      "role": "Web Programmer",
+      "period": "2013 – 2016",
+      "type": "Education & Academic Systems",
+      "responsibilities": [
+        "Built academic and administrative systems",
+        "Digitized payments, records, and library workflows",
+        "Developed IoT-enabled systems for campus use"
+      ],
+      "achievements": [
+        "Eliminated 50% of manual workflows",
+        "Supported 200+ students and staff",
+        "Improved data accuracy and transparency"
+      ]
+    }
+  ],
+  "id": [
+    {
+      "company": "Pegadaian Indonesia",
+      "role": "Engineer Front-End / Support",
+      "period": "2025 – Sekarang",
+      "type": "Enterprise / Sistem Keuangan",
+      "responsibilities": [
+        "Memberikan dukungan front-end di berbagai produk internal dan stack teknologi",
+        "Bekerja dengan sistem legacy (CodeIgniter 2 & 3) dan tech stack modern (React, Vue 3, NestJS)",
+        "Berperan sebagai engineer pendukung kualitas dan arsitektur lintas tim",
+        "Beradaptasi dengan cepat ke dalam domain keuangan yang kompleks (tutup buku, COA)"
+      ],
+      "achievements": [
+        "Menghilangkan masalah N+1 query dengan refactoring menjadi query rekursif terkontrol",
+        "Meningkatkan performa dengan mengurangi multiple DB call menjadi satu eksekusi",
+        "Meningkatkan cakupan unit test hingga ~90% dan menetapkan standar pengujian",
+        "Memperbaiki kerentanan otorisasi pada sistem legacy"
+      ]
+    },
+    {
+      "company": "Telkom Indonesia",
+      "role": "Lead Front-End Engineer",
+      "period": "2020 – 2025",
+      "type": "EdTech / Platform Skala Besar",
+      "responsibilities": [
+        "Memimpin 4 tim front-end di berbagai produk EdTech",
+        "Mendefinisikan arsitektur front-end yang scalable dan standar engineering",
+        "Mengintegrasikan 100+ REST API",
+        "Memastikan rilis berkualitas tinggi melalui testing dan code review"
+      ],
+      "achievements": [
+        "Mengirimkan platform yang digunakan oleh 1,1 juta+ pengguna",
+        "Membangun sistem komponen yang dapat digunakan kembali di 10+ proyek",
+        "Mengurangi waktu pengembangan sebesar ~40%",
+        "Mempertahankan cakupan pengujian >80% di seluruh proyek"
+      ]
+    },
+    {
+      "company": "Karya Mitra Utama",
+      "role": "Web Programmer",
+      "period": "2016 – 2019",
+      "type": "Otomasi & IoT",
+      "responsibilities": [
+        "Membangun aplikasi web kustom untuk mengotomatisasi alur kerja bisnis",
+        "Mengintegrasikan sistem IoT untuk pemantauan real-time",
+        "Mengembangkan dashboard dan alat internal"
+      ],
+      "achievements": [
+        "Mengurangi beban kerja manual sebesar 90%",
+        "Mengirimkan 3+ sistem berbasis IoT",
+        "Memangkas waktu pemrosesan sebesar 50%"
+      ]
+    },
+    {
+      "company": "Sekolah Tinggi Teknologi Jawa Barat",
+      "role": "Web Programmer",
+      "period": "2013 – 2016",
+      "type": "Pendidikan & Sistem Akademik",
+      "responsibilities": [
+        "Membangun sistem akademik dan administrasi",
+        "Mendigitalisasi pembayaran, catatan, dan alur kerja perpustakaan",
+        "Mengembangkan sistem berbasis IoT untuk penggunaan kampus"
+      ],
+      "achievements": [
+        "Menghilangkan 50% alur kerja manual",
+        "Mendukung 200+ mahasiswa dan staf",
+        "Meningkatkan akurasi dan transparansi data"
+      ]
+    }
+  ]
+}

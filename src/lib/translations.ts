@@ -15,6 +15,9 @@ export const translations = {
       title: "Senior Front-End Engineer & Automation-Oriented Full Stack Developer",
       cta: "Work With Me",
       viewWork: "View Selected Projects",
+      description: "A passionate developer crafting beautiful web experiences with modern technologies.",
+      hireMe: "Hire Me",
+      letsTalk: "Let's Talk",
     },
     about: {
       title: "About Me",
@@ -60,72 +63,97 @@ export const translations = {
     footer: {
       rights: "All rights reserved.",
       madeWith: "Built with care and engineering discipline",
+      location: "in Indonesia",
+    },
+    notFound: {
+      title: "Oops! Page not found",
+      back: "Return to Home",
     },
   },
-
   id: {
     nav: {
       home: "Beranda",
-      about: "Tentang",
+      about: "Tentang Saya",
       experience: "Pengalaman",
       projects: "Proyek",
       articles: "Artikel",
       skills: "Keahlian",
       contact: "Kontak",
     },
+
     hero: {
       greeting: "Halo, saya",
       name: "Ahmad Khairul Anwar",
-      title: "Senior Front-End Engineer & Full Stack Developer Berorientasi Automasi",
-      cta: "Kerja Sama",
-      viewWork: "Lihat Proyek Pilihan",
+      title: "Senior Front-End Engineer & Automation-Oriented Full Stack Developer",
+      cta: "Bekerja Dengan Saya",
+      viewWork: "Lihat Proyek Terpilih",
+      description:
+        "Engineer berpengalaman yang membangun pengalaman web berkualitas tinggi dengan teknologi modern dan pendekatan engineering yang solid.",
+      hireMe: "Rekrut Saya",
+      letsTalk: "Mari Diskusi",
     },
+
     about: {
       title: "Tentang Saya",
-      subtitle: "Pola pikir engineer. Dampak produk.",
-      paragraph1: "Saya adalah Senior Front-End Engineer dengan pengalaman lebih dari 10 tahun dalam membangun aplikasi web berperforma tinggi. Terbiasa memimpin tim, menjaga codebase kompleks, dan mengirimkan sistem yang digunakan lebih dari 1,1 juta pengguna.",
-      paragraph2: "Kekuatan utama saya ada pada penerjemahan kebutuhan bisnis menjadi eksekusi teknis — mulai dari desain arsitektur yang bersih, refactor sistem legacy, hingga menjaga kualitas melalui testing, CI/CD, dan standar engineering yang jelas.",
+      subtitle: "Pola pikir engineer. Dampak nyata pada produk.",
+      paragraph1:
+        "Ahmad Khairul Anwar adalah Senior Front-End Engineer dengan pengalaman lebih dari 10 tahun dalam membangun dan memimpin aplikasi web yang scalable dan berperforma tinggi di lingkungan EdTech, pemerintahan, dan enterprise. Berpengalaman memimpin tim front-end, merancang arsitektur yang bersih dan scalable, serta mengirimkan produk yang digunakan oleh lebih dari 1,1 juta pengguna.",
+      paragraph2:
+        "Memiliki keahlian kuat di React.js, Next.js, dan ekosistem front-end modern, termasuk pengalaman memodernisasi sistem legacy, menerapkan strategi automated testing, serta menurunkan risiko defect produksi melalui CI/CD dan standar kualitas yang konsisten. Terbiasa bekerja lintas teknologi lama dan modern, dengan fokus tinggi pada keterbacaan kode, maintainability, dan efisiensi onboarding. Engineer yang berorientasi pada eksekusi, dengan ketertarikan kuat pada automation engineering dan AI-assisted development, serta konsisten menghadirkan sistem yang bersih, test-driven, dan siap produksi.",
       yearsExp: "Tahun Pengalaman",
-      projectsDone: "Proyek Selesai",
+      projectsDone: "Proyek Diselesaikan",
       happyClients: "Klien Puas",
     },
+
     experience: {
       title: "Pengalaman Kerja",
-      subtitle: "Peran, tanggung jawab, dan dampak nyata",
-      current: "Saat ini",
+      subtitle: "Peran, tanggung jawab, dan dampak yang terukur",
+      current: "Saat Ini",
     },
+
     projects: {
-      title: "Proyek Pilihan",
+      title: "Proyek Terpilih",
       subtitle: "Sistem produksi, bukan sekadar demo",
-      viewCase: "Lihat",
-      moreProjects: "Untuk daftar proyek lengkap, lihat di sini",
+      viewCase: "Lihat Detail",
+      moreProjects: "Untuk daftar proyek lengkap, silakan lihat di sini",
     },
+
     articles: {
       title: "Artikel & Tulisan",
-      subtitle: "Insight engineering dari proyek nyata",
+      subtitle: "Insight engineering dari pengalaman proyek nyata",
       readMore: "Baca Artikel",
-      moreArticles: "Lihat lebih banyak artikel di sini",
+      moreArticles: "Lihat artikel lainnya di sini",
     },
+
     skills: {
-      title: "Keahlian Utama",
-      subtitle: "Hal yang selalu saya deliver",
+      title: "Keahlian Inti",
+      subtitle: "Hal yang secara konsisten saya deliver",
     },
+
     contact: {
       title: "Hubungi Saya",
-      subtitle: "Punya proyek? Mari diskusikan bagaimana saya dapat membantu mewujudkan ide Anda.",
+      subtitle:
+        "Punya proyek atau tantangan teknis? Mari diskusikan bagaimana saya bisa membantu mewujudkannya.",
       name: "Nama Anda",
       email: "Email Anda",
       message: "Pesan Anda",
       send: "Kirim Pesan",
-      success: "Pesan Terkirim!",
-      reachMe: "Hubungi Saya",
+      success: "Pesan berhasil dikirim!",
+      reachMe: "Kontak Langsung",
       social: "Terhubung Dengan Saya",
     },
+
     footer: {
-      rights: "Hak cipta dilindungi.",
-      madeWith: "Dibangun dengan disiplin engineering",
+      rights: "Seluruh hak cipta dilindungi.",
+      madeWith: "Dibangun dengan ketelitian dan disiplin engineering",
+      location: "di Indonesia",
     },
-  },
+
+    notFound: {
+      title: "Oops! Halaman tidak ditemukan",
+      back: "Kembali ke Beranda",
+    },
+  }
 };
 
 export type Language = "en" | "id";

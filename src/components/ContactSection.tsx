@@ -8,7 +8,7 @@ import { Send, Mail, Phone, FileText, Linkedin, Github, ExternalLink } from "luc
 import contactData from "@/data/contact.json";
 
 const ContactSection = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -60,9 +60,10 @@ const ContactSection = () => {
     }
   };
 
-  const primaryContacts = contactData.contact.filter(c => c.type === "primary");
-  const socialContacts = contactData.contact.filter(c => c.type === "social");
-  const documentContacts = contactData.contact.filter(c => c.type === "document");
+  const { contact } = contactData[language];
+  const primaryContacts = contact.filter(c => c.type === "primary");
+  const socialContacts = contact.filter(c => c.type === "social");
+  const documentContacts = contact.filter(c => c.type === "document");
 
   return (
     <section id="contact" className="py-20 bg-muted/30">

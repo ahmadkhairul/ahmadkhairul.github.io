@@ -23,9 +23,9 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 };
 
 const SkillsSection = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
-  const skills = Object.entries(skillData).map(([key, value]) => ({
+  const skills = Object.entries(skillData[language]).map(([key, value]) => ({
     id: key,
     title: value.title,
     items: value.items,

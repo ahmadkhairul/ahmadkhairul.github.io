@@ -1,62 +1,126 @@
 {
-  "frontend": {
-    "title": "Front-End Engineering",
-    "items": [
-      "TypeScript & Modern JavaScript (ES6+)",
-      "Modern Front-End Tech (Next.js, React.js & Vue.js)"
-    ]
+  "en": {
+    "frontend": {
+      "title": "Front-End Engineering",
+      "items": [
+        "TypeScript & Modern JavaScript (ES6+)",
+        "Modern Front-End Tech (Next.js, React.js & Vue.js)"
+      ]
+    },
+    "leadership": {
+      "title": "Technical Leadership",
+      "items": [
+        "Lead, Code reviews & mentoring front-end teams",
+        "Onboarding documentation & standards",
+        "Cross-team collaboration with product & backend"
+      ]
+    },
+    "architecture": {
+      "title": "Architecture & Code Quality",
+      "items": [
+        "Clean and scalable front-end architecture & Module Federation",
+        "Legacy system refactoring (Old CI, Old Laravel, PHP 5.4, etc)",
+        "Readable, maintainable, and testable codebases"
+      ]
+    },
+    "stateManagement": {
+      "title": "State Management & Data Layer",
+      "items": [
+        "Local Storage, Local state, Global state Management Strategy",
+        "React Query, Redux, Context API, Pinia, Zod"
+      ]
+    },
+    "testing": {
+      "title": "Testing & CI/CD",
+      "items": [
+        "80–90% unit test coverage on production systems",
+        "Testing Tech (Jest, React Testing Library, Vitest)",
+        "SonarQube quality gates"
+      ]
+    },
+    "automation": {
+      "title": "Tooling",
+      "items": [
+        "Module Bundler (Webpack & Vite)",
+        "AI-assisted development workflows"
+      ]
+    },
+    "mobile": {
+      "title": "Mobile Development",
+      "items": [
+        "Responsive Design Mobile First",
+        "React Native & Expo"
+      ]
+    },
+    "backend": {
+      "title": "Backend Exposure",
+      "items": [
+        "REST API integration & JWT authentication",
+        "Node.js, Express and NestJS",
+        "Codeigniter, Laravel & PHP"
+      ]
+    }
   },
-  "leadership": {
-    "title": "Technical Leadership",
-    "items": [
-      "Lead, Code reviews & mentoring front-end teams",
-      "Onboarding documentation & standards",
-      "Cross-team collaboration with product & backend"
-    ]
-  },
-  "architecture": {
-    "title": "Architecture & Code Quality",
-    "items": [
-      "Clean and scalable front-end architecture & Module Federation",
-      "Legacy system refactoring (Old CI, Old Laravel, PHP 5.4, etc)",
-      "Readable, maintainable, and testable codebases"
-    ]
-  },
-  "stateManagement": {
-    "title": "State Management & Data Layer",
-    "items": [
-      "Local Storage, Local state, Global state Management Strategy",
-      "React Query, Redux, Context API, Pinia, Zod"
-    ]
-  },
-  "testing": {
-    "title": "Testing & CI/CD",
-    "items": [
-      "80–90% unit test coverage on production systems",
-      "Testing Tech (Jest, React Testing Library, Vitest)",
-      "SonarQube quality gates"
-    ]
-  },
-  "automation": {
-    "title": "Tooling",
-    "items": [
-      "Module Bundler (Webpack & Vite)",
-      "AI-assisted development workflows"
-    ]
-  },
-  "mobile": {
-    "title": "Mobile Development",
-    "items": [
-      "Responsive Design Mobile First",
-      "React Native & Expo"
-    ]
-  },
-  "backend": {
-    "title": "Backend Exposure",
-    "items": [
-      "REST API integration & JWT authentication",
-      "Node.js, Express and NestJS",
-      "Codeigniter, Laravel & PHP"
-    ]
+  "id": {
+    "frontend": {
+      "title": "Front-End Engineering",
+      "items": [
+        "TypeScript & JavaScript modern (ES6+)",
+        "Teknologi front-end modern (Next.js, React.js, dan Vue.js)"
+      ]
+    },
+    "leadership": {
+      "title": "Technical Leadership",
+      "items": [
+        "Memimpin tim front-end, code review, dan mentoring engineer",
+        "Penyusunan dokumentasi onboarding dan standar engineering",
+        "Kolaborasi lintas tim dengan product dan backend"
+      ]
+    },
+    "architecture": {
+      "title": "Arsitektur & Kualitas Kode",
+      "items": [
+        "Arsitektur front-end yang bersih, scalable, serta penerapan Module Federation",
+        "Refactoring sistem legacy (CI lama, Laravel lama, PHP 5.4, dan sejenisnya)",
+        "Codebase yang mudah dibaca, terjaga, dan siap diuji"
+      ]
+    },
+    "stateManagement": {
+      "title": "State Management & Data Layer",
+      "items": [
+        "Strategi pengelolaan state: local state, global state, dan local storage",
+        "React Query, Redux, Context API, Pinia, dan Zod"
+      ]
+    },
+    "testing": {
+      "title": "Testing & CI/CD",
+      "items": [
+        "Cakupan unit test 80–90% pada sistem produksi",
+        "Testing tools (Jest, React Testing Library, Vitest)",
+        "Penerapan quality gate menggunakan SonarQube"
+      ]
+    },
+    "automation": {
+      "title": "Tooling & Automation",
+      "items": [
+        "Module bundler (Webpack dan Vite)",
+        "Workflow pengembangan berbantuan AI"
+      ]
+    },
+    "mobile": {
+      "title": "Mobile Development",
+      "items": [
+        "Responsive design dengan pendekatan mobile-first",
+        "Pengembangan aplikasi menggunakan React Native dan Expo"
+      ]
+    },
+    "backend": {
+      "title": "Backend Exposure",
+      "items": [
+        "Integrasi REST API dan autentikasi JWT",
+        "Node.js, Express, dan NestJS",
+        "CodeIgniter, Laravel, dan PHP"
+      ]
+    }
   }
 }

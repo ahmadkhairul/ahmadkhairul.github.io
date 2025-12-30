@@ -1,67 +1,136 @@
 {
-  "contact": [
-    {
-      "name": "whatsapp",
-      "label": "Contact Me",
-      "description": "Chat via WhatsApp",
-      "url": "https://api.whatsapp.com/send?phone=6283822983690",
-      "icon": "fab fa-whatsapp",
-      "target": "_blank",
-      "type": "primary"
-    },
-    {
-      "name": "email",
-      "label": "Email",
-      "description": "95ahmadkhairul@gmail.com",
-      "url": "mailto:95ahmadkhairul@gmail.com",
-      "icon": "fas fa-envelope",
-      "target": "_blank",
-      "type": "primary"
-    },
-    {
-      "name": "resume",
-      "label": "Download Resume",
-      "description": "Full Resume (PDF)",
-      "url": "/ahmad-khairul-cv.pdf",
-      "icon": "fas fa-file-pdf",
-      "target": "_blank",
-      "type": "document"
-    },
-    {
-      "name": "linkedin",
-      "label": "LinkedIn",
-      "description": "Professional Profile",
-      "url": "https://www.linkedin.com/in/ahmad-khairul-anwar/",
-      "icon": "fab fa-linkedin",
-      "target": "_blank",
-      "type": "social"
-    },
-    {
-      "name": "github",
-      "label": "GitHub",
-      "description": "Code Repositories",
-      "url": "https://github.com/ahmadkhairul",
-      "icon": "fab fa-github",
-      "target": "_blank",
-      "type": "social"
-    },
-    {
-      "name": "upwork",
-      "label": "Upwork",
-      "description": "Freelance Profile",
-      "url": "https://www.upwork.com/freelancers/~013f2ad6e1c7aac130",
-      "icon": "fa-brands fa-upwork",
-      "target": "_blank",
-      "type": "social"
-    },
-    {
-      "name": "medium",
-      "label": "Medium",
-      "description": "Technical Writing",
-      "url": "https://medium.com/@95ahmadkhairul",
-      "icon": "fab fa-medium",
-      "target": "_blank",
-      "type": "social"
-    }
-  ]
+  "en": {
+    "contact": [
+      {
+        "name": "whatsapp",
+        "label": "Contact Me",
+        "description": "Chat via WhatsApp",
+        "url": "https://api.whatsapp.com/send?phone=6283822983690",
+        "icon": "fab fa-whatsapp",
+        "target": "_blank",
+        "type": "primary"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "description": "95ahmadkhairul@gmail.com",
+        "url": "mailto:95ahmadkhairul@gmail.com",
+        "icon": "fas fa-envelope",
+        "target": "_blank",
+        "type": "primary"
+      },
+      {
+        "name": "resume",
+        "label": "Download Resume",
+        "description": "Full Resume (PDF)",
+        "url": "/ahmad-khairul-cv.pdf",
+        "icon": "fas fa-file-pdf",
+        "target": "_blank",
+        "type": "document"
+      },
+      {
+        "name": "linkedin",
+        "label": "LinkedIn",
+        "description": "Professional Profile",
+        "url": "https://www.linkedin.com/in/ahmad-khairul-anwar/",
+        "icon": "fab fa-linkedin",
+        "target": "_blank",
+        "type": "social"
+      },
+      {
+        "name": "github",
+        "label": "GitHub",
+        "description": "Code Repositories",
+        "url": "https://github.com/ahmadkhairul",
+        "icon": "fab fa-github",
+        "target": "_blank",
+        "type": "social"
+      },
+      {
+        "name": "upwork",
+        "label": "Upwork",
+        "description": "Freelance Profile",
+        "url": "https://www.upwork.com/freelancers/~013f2ad6e1c7aac130",
+        "icon": "fa-brands fa-upwork",
+        "target": "_blank",
+        "type": "social"
+      },
+      {
+        "name": "medium",
+        "label": "Medium",
+        "description": "Technical Writing",
+        "url": "https://medium.com/@95ahmadkhairul",
+        "icon": "fab fa-medium",
+        "target": "_blank",
+        "type": "social"
+      }
+    ]
+  },
+  "id": {
+    "contact": [
+      {
+        "name": "whatsapp",
+        "label": "Hubungi Saya",
+        "description": "Chat via WhatsApp",
+        "url": "https://api.whatsapp.com/send?phone=6283822983690",
+        "icon": "fab fa-whatsapp",
+        "target": "_blank",
+        "type": "primary"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "description": "95ahmadkhairul@gmail.com",
+        "url": "mailto:95ahmadkhairul@gmail.com",
+        "icon": "fas fa-envelope",
+        "target": "_blank",
+        "type": "primary"
+      },
+      {
+        "name": "resume",
+        "label": "Unduh Resume",
+        "description": "Resume Lengkap (PDF)",
+        "url": "/ahmad-khairul-cv.pdf",
+        "icon": "fas fa-file-pdf",
+        "target": "_blank",
+        "type": "document"
+      },
+      {
+        "name": "linkedin",
+        "label": "LinkedIn",
+        "description": "Profil Profesional",
+        "url": "https://www.linkedin.com/in/ahmad-khairul-anwar/",
+        "icon": "fab fa-linkedin",
+        "target": "_blank",
+        "type": "social"
+      },
+      {
+        "name": "github",
+        "label": "GitHub",
+        "description": "Repositori Kode",
+        "url": "https://github.com/ahmadkhairul",
+        "icon": "fab fa-github",
+        "target": "_blank",
+        "type": "social"
+      },
+      {
+        "name": "upwork",
+        "label": "Upwork",
+        "description": "Profil Freelance",
+        "url": "https://www.upwork.com/freelancers/~013f2ad6e1c7aac130",
+        "icon": "fa-brands fa-upwork",
+        "target": "_blank",
+        "type": "social"
+      },
+      {
+        "name": "medium",
+        "label": "Medium",
+        "description": "Penulisan Teknis",
+        "url": "https://medium.com/@95ahmadkhairul",
+        "icon": "fab fa-medium",
+        "target": "_blank",
+        "type": "social"
+      }
+    ]
+  }
 }

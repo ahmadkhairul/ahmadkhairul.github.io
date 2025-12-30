@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import projectData from "@/data/project.json";
 
 const ProjectsSection = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   return (
     <section id="projects" className="py-20">
@@ -22,7 +22,7 @@ const ProjectsSection = () => {
 
           {/* Projects Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projectData.slice(0, 6).map((project, index) => (
+            {projectData[language].slice(0, 6).map((project, index) => (
               <div
                 key={index}
                 className="group bg-card rounded-xl overflow-hidden shadow-soft hover:shadow-glow transition-all duration-300 hover:-translate-y-2 border border-border/50 hover:border-primary/30"

@@ -37,8 +37,7 @@ const HeroSection = () => {
             </h2>
 
             <p className="max-w-lg text-muted-foreground text-lg leading-relaxed animate-fade-up" style={{ animationDelay: "0.4s" }}>
-              A passionate developer crafting beautiful web experiences with modern technologies. 
-              {/* Using a generic placeholder for now as per user request to differentiate from About section */}
+              {t.hero.description}
             </p>
 
             <div className="flex flex-wrap gap-4 mt-4 animate-fade-up" style={{ animationDelay: "0.5s" }}>
@@ -46,13 +45,13 @@ const HeroSection = () => {
                 href="#contact" 
                 className="px-8 py-3 bg-primary text-primary-foreground rounded-full font-semibold hover:bg-primary/90 transition-all shadow-lg hover:shadow-primary/25 hover:-translate-y-1"
               >
-                Hire Me
+                {t.hero.hireMe}
               </a>
               <a 
                 href="#contact" 
                 className="px-8 py-3 border-2 border-primary/20 hover:border-primary text-foreground rounded-full font-semibold hover:bg-primary/5 transition-all"
               >
-                Let's Talk
+                {t.hero.letsTalk}
               </a>
             </div>
           </div>
